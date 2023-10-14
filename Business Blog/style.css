@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.contenedor{
+    border: 15px;
+    border-color: blue;
+    background-color: #F2F5F9;
+    width: 458px;
+    height: 545px;
+    margin: auto;
+    border-radius: 15px;
+    /* display: flex; */
+}
+
+.caja{
+    border: 35px;
+    border-color: brown;
+}
+
+.caja h1{
+    font-family: Poppins;
+    font-size: 24px;
+    color: #111729;
+    padding: 25px;
+}
+
+.caja p{
+    padding: 25px;
+    font-family: Lato;
+    font-size: 16px;
+    padding-top: 0;
+}
+
+.heroImg{
+    max-width: 100%;
+}
+.contenedor .profile{
+    display: flex;
+}
+
+ .contenedor .profile .imgProfile{
+    /* padding: 25px;
+    padding-left: 0; */
+    margin-left: 25px;
+    border: 85px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    border-color: rgb(124, 63, 127);
+
+}
+
+.contenedor .profile .imgProfile img{
+    border-color: blue;
+    border: 15px;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.contenedor .profile .texts h2{
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.contenedor .profile .texts p{
+    font-family: Lato;
+    font-size: 15px;
+}
+
+
