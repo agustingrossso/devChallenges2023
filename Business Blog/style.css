@@ -4,12 +4,15 @@
     overflow: hidden;
 }
 
+body{
+    background-color: #F2F5F9;
+}
 
 .contenedor{
     border: 15px;
     border-color: blue;
-    background-color: #F2F5F9;
-    width: 458px;
+    background-color: #FFFF;
+    width: 418px;
     height: 545px;
     margin: auto;
     border-radius: 15px;
@@ -26,41 +29,53 @@
     font-size: 24px;
     color: #111729;
     padding: 25px;
+    margin-top: -70px;
 }
 
 .caja p{
     padding: 25px;
     font-family: Lato;
+    color: #677489;
     font-size: 16px;
     padding-top: 0;
+    margin-top: -15px;
 }
 
 .heroImg{
     max-width: 100%;
 }
+
+.contenedor .svgDiv{
+    position: relative;
+    top: -38px;
+    
+}
 .contenedor .profile{
     display: flex;
+    border-top: 1px solid;
+    border-color: #F2F5F9;
+    padding-top: 15px;
 }
 
  .contenedor .profile .imgProfile{
     /* padding: 25px;
     padding-left: 0; */
     margin-left: 25px;
-    border: 85px;
+    border: 5px solid ;
     width: 45px;
     height: 45px;
     border-radius: 100px;
-    border-color: rgb(124, 63, 127);
+    border-color: #F2F5F9;
 
 }
 
 .contenedor .profile .imgProfile img{
-    border-color: blue;
-    border: 15px;
-    border-radius: 15px;
     max-width: 100%;
 }
 
+.contenedor .profile .texts{
+    padding-left: 15px;
+}
 .contenedor .profile .texts h2{
     font-family: Poppins;
     font-size: 18px;
