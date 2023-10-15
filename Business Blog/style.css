@@ -8,20 +8,25 @@ body{
     background-color: #F2F5F9;
 }
 
+.contenedorOp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .contenedor{
     border: 15px;
-    border-color: blue;
     background-color: #FFFF;
     width: 418px;
     height: 545px;
-    margin: auto;
+    /* margin: auto; */
     border-radius: 15px;
-    /* display: flex; */
+    
 }
 
 .caja{
     border: 35px;
-    border-color: brown;
 }
 
 .caja h1{
@@ -84,6 +89,7 @@ body{
 .contenedor .profile .texts p{
     font-family: Lato;
     font-size: 15px;
+    color: #677489;
 }
 
 
